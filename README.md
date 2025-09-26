@@ -55,9 +55,10 @@ Certifique-se de que seus arquivos estejam organizados da seguinte forma:
 
 ```
 ResumoNoticiasAI/
+├── /venv               # Ambiente virtual do Python
 ├── .env
 ├── main.py             # Orquestra o processo e envia o e-mail
-├── noticias.py         # Busca e filtra notícias por data (adicionado retry)
+├── noticias.py         # Busca e filtra notícias por data 
 ├── filtro.py           # Filtra notícias por palavra-chave
 ├── resumo.py           # Sumariza o texto usando IA
 └── README.md           # Este arquivo
